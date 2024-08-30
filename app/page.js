@@ -26,7 +26,7 @@ export default function Home() {
 
   // Send the message to the server
   try{
-  const response = await fetch('/app/api/chat/route.js', {
+  const response = await fetch('/api/chat', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
